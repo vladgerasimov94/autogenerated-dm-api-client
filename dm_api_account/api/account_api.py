@@ -750,7 +750,7 @@ class AccountApi(object):
 
         self.reset_password = _Endpoint(
             settings={
-                'response_type': None,
+                'response_type': (UserEnvelope,),
                 'auth': [],
                 'endpoint_path': '/v1/account/password',
                 'operation_id': 'reset_password',

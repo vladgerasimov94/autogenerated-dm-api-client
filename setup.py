@@ -11,7 +11,7 @@
 from setuptools import setup, find_packages  # noqa: H301
 
 NAME = "dm-api-account"
-VERSION = "v1"
+VERSION = "v1.0.1"
 # To install the library, run the following
 #
 # python setup.py install
